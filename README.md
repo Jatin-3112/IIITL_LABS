@@ -10,8 +10,6 @@
 4. [Technologies Used](#technologies-used)  
 5. [Flowcharts](#flowcharts)  
 6. [Upcoming Features](#upcoming-features)  
-7. [How to Run](#how-to-run)  
-8. [Contributions](#contributions)  
 
 ---
 
@@ -40,12 +38,6 @@ The system is containerized using **Docker** and deployed on **AWS Elastic Kuber
 
 5. **Containerization**  
    - Uses a **Multi-Stage Dockerfile** to minimize image size and reduce deployment time, ensuring efficient builds and deployments.  
-
-6. **CI/CD Pipeline**  
-   - Automated deployment to **AWS EKS** using **GitHub Actions**, ensuring seamless updates and high availability.
-
-7. **Storage Persistence**  
-   - Ensures persistence of lab seat booking data and RabbitMQ messages using **StatefulSets** in Kubernetes to prevent data loss in case of pod restarts.  
 
 ---
 
